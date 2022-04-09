@@ -2,7 +2,7 @@ import requests
 from pprint import pprint
 from bs4 import BeautifulSoup
 
-
+#Indeed URL scraped
 URL = 'https://www.monster.com/jobs/search/?q=Software-Developer&where=Australia'
 
 page = requests.get(URL)
